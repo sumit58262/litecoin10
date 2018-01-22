@@ -139,8 +139,8 @@ public:
         genesis.nNonce   = 698604;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0xb74f5f440516406b1977d8aecc8eaab6ea9a1bcd826d9b1cfc556d421b080450"));
-        assert(genesis.hashMerkleRoot == uint256("0x2555dfa1992928e23fd9748f3be90a3960c4da47481865ed0d88887b809d56e9"));
+        assert(hashGenesisBlock == uint256("0x2555dfa1992928e23fd9748f3be90a3960c4da47481865ed0d88887b809d56e9"));
+        assert(genesis.hashMerkleRoot == uint256("0xb74f5f440516406b1977d8aecc8eaab6ea9a1bcd826d9b1cfc556d421b080450"));
 
         vSeeds.push_back(CDNSSeedData("rajnibitcoin.com", "dnsseed.rajnibitcoin.com"));
         vSeeds.push_back(CDNSSeedData("inaurika.com", "dnsseed.inaurika.com"));
